@@ -1,0 +1,95 @@
+.menu-items{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #e359f0;
+    transition: all 0.3s ease;
+}
+
+li a:hover{
+    font-size: 23px;
+}
+li {
+    color: #8EABD3; 
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    text-align: left;
+}
+
+body {
+    background-color: #EC9DBA; 
+}
+.waku {
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 320px;
+}
+
+.portada {
+    min-width: 100vw;
+    position: absolute;
+    top: -25rem;
+    z-index: -1;
+}
+
+.portada img{
+    width: 100%;
+}
+
+.menu {
+    color: #CC70A3; 
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: left;
+}
+p {
+    color: black; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: justify;
+    position: relative;
+    top: 320px;
+}
+h2 {
+    color: #F5F5F5; 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+}
+a {
+    text-align: right;
+}
+.upcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.gallery {
+    position: relative;
+    top: 320px;
+    right: -350;
+    width: 5200;
+    height: 500;
+
+}
+
+.desc {
+    color: #F5F5F5; 
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    text-align: justify;
+
+}
+
+.video {
+    align-items: center
+
+}
